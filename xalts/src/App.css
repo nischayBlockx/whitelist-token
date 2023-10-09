@@ -1,0 +1,27 @@
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Change width to height */
+}
+
+.appbuttons {
+  color: grey; /* Remove quotes around 'grey' */
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.inputBox {
+  padding: 10px;
+  margin: 20px 0;
+  width: 300px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally within .flex-row */
+}
